@@ -91,11 +91,11 @@ class _LoginPageState extends State<LoginPage> {
                           final username = _usernameController.text;
                           final password = _passwordController.text;
 
-                          if (username == 'singh@gmail.com' &&
-                              password == '00000000') {
+                          if (username == 'arnit.jp@gmail.com' &&
+                              password == '1234') {
                             SharedPreferences prefs =
                             await SharedPreferences.getInstance();
-                            var token = 'singh1234567890';
+                            var token = 'tetae1234567890';
 
                             prefs.setString(AppSetting.tokenSetting, token);
                             prefs.setString(
