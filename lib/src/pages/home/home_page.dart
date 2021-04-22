@@ -133,16 +133,11 @@ class CommonDrawer extends StatelessWidget {
       child: Column(
         children: [
           UserAccountsDrawerHeader(
-            accountName: Text('Singh'),
-            accountEmail: Text('Singh@gmail.com'),
+            accountName: Text('Arnit Musikamas'),
+            accountEmail: Text('Arnit.jp@gmail.com'),
             currentAccountPicture: CircleAvatar(
-              // เรียกจาก assets
-              // backgroundImage: AssetImage(
-              //   'assets/images/cdgs_logo.png'
-              // ),
-              // เรียกจาก network
-              backgroundImage: NetworkImage(
-                  'https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg'),
+              backgroundImage: AssetImage(
+                  'assets/images/cdgs_logo.png'),
             ),
             decoration: BoxDecoration(gradient: BackGroundTheme.gradient),
           ),

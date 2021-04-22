@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/launcher_icon"
         android:label="flutter_app"
         android:usesCleartextTraffic="true">
         <activity
@@ -45,5 +45,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBF_Kj28063ZhMJjQbg-TqASZ3yjviN0xE"/>
     </application>
 </manifest>
